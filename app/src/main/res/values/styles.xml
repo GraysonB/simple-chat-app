@@ -46,7 +46,7 @@
     </style>
 
     <style name="edittext_msg" parent="android:Widget.Holo.Light.EditText">
-        <item name="android:background">@color/</item>
+        <item name="android:background">@color/gray_light</item>
         <item name="android:ems">10</item>
         <item name="android:imeActionId">100</item>
         <item name="android:imeOptions">actionSend</item>

@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:background="@color/gray_light"
         android:gravity="center_vertical"
-        android:padding="@dimen/pad_5dp"
+        android:padding="5dp"
         tools:context=".MainActivity" >
 
         <!-- Where the message is put-->
@@ -40,17 +40,19 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="Message" >
-
+            android:hint="Message"
+            android:shadowDy="-5.0"
+            android:shadowRadius="5.0">
         </EditText>
 
            <!-- Button that will be used to send the message.-->
         <Button
             android:id="@+id/btnSend"
             style="@style/btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/ic_send" />
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:background="@drawable/ic_send"
+            />
 
     </LinearLayout>
 
